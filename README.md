@@ -1,4 +1,4 @@
-FastAPI User Management System
+**FastAPI User Management System**
 
 This project is a user management system built using FastAPI and MongoDB. It includes APIs for user registration, login, linking an ID, joining data from multiple collections, and deleting users 
 
@@ -6,7 +6,7 @@ along with their associated data.
 
 
 
-Project Structure
+**Project Structure**
 
 main.py: The main entry point for the FastAPI application.
 
@@ -32,22 +32,22 @@ security.py: Handles password hashing and verification.
 
 requirements.txt: Lists all required Python packages.
 
-Requirements
+**Requirements**
 
 Python 3.7+
 
 MongoDB
 
-Installation
-
+**Installation
+**
 Clone the repository:
 
 
-git clone https://github.com/yourusername/my_fastapi_project.git
+git clone https://github.com/tharun-7/MongoDB-FastAPI.git
 
 cd my_fastapi_project
 
-Create and activate a virtual environment:
+**Create and activate a virtual environment:**
 
 
 
@@ -60,12 +60,12 @@ Install the required packages:
 
 pip install -r requirements.txt
 
-Configuration
+**Configuration**
 
 Ensure your MongoDB instance is running and update the MongoDB connection string in database.py if needed.
 
 
-Running the Application
+**Running the Application**
 
 Start the FastAPI application using uvicorn:
 
